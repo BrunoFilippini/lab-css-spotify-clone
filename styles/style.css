@@ -1,8 +1,169 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
-*/
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed; 
+    z-index: 1;
+    width: 100%;
+}
+
+.nav_bar img {
+    width: 10em ;
+    height: auto;
+}
+
+.nav_bar ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.nav_bar a {
+    display: flex;
+    text-decoration: none;
+    padding: 20px 60px 20px 20px;
+    color: #1A1A1A;
+    font-weight: bolder;
+}
+
+.image_hero {
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 1400px;
+    width: auto;
+}
+
+.hero_text h1 {
+    font-size: 100px;
+}
+
+.hero_text article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.featuresSpotify {
+    padding: 50px 0px 150px 0px;
+}
+
+.featuresSpotify h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    text-decoration-line: underline;
+    text-underline-offset: 20px;
+    text-decoration-color: #00B172;
+    padding-bottom: 100px;
+}
+
+.featuresSpotify img{
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+
+.featuresSpotify div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.featuresSpotify article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featuresSpotify h4 {
+    display: flex;
+    color: #00B172;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.featuresSpotify p {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    color:  #1A1A1A;
+    align-items: center;
+
+}
+
+.kayneWestPart {
+    background-color: #00B172 ;
+    color: white;
+    margin: 30px;
+}
+
+.kayneWestPart h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    padding: 80px;
+    text-decoration-line: underline;
+    text-underline-offset: 20px;
+    text-decoration-color: white;
+    padding-bottom: 20px;
+}
+
+.spotifyApp {
+    height: 1200px;
+    width: auto;
+} 
+
+.kayneWestPart article {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.kayneWestPart h4 {
+    font-size: 50px;
+}
+
+.kayneWestPart p {
+    font-size: 40px;
+}
+
+.imgSpotifyWhite {
+    display: flex;
+    align-items: center;
+}
+
+.imgSpotifyWhite img {
+    height: 200px;
+    width: auto;
+    padding-right: 300px;
+}
+
+.kayneWestPart div {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px 50px 20px;
+}
+
+.articles {
+    flex-direction: column;
+    justify-content: space-around;
+}
